@@ -1,7 +1,7 @@
 (function () {
 	let widgetIDList = [];
 
-	let siteKey = '6LfSta0UAAAAACDnfMrUijawuFGe738Fu8N7LaDV';
+	let siteKey = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
 
 	self.onloadCaptchaCallback = function() {
 		initForms();
