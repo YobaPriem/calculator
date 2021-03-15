@@ -4,7 +4,7 @@ namespace App\Bundle\Google;
 
 use Bitrix\Main\Page\Asset;
 
-define('GOOGLE_CAPTCHA_SECRET_KEY','6LfSta0UAAAAAGK1DV5bXbpPdLZ4nriVeeFw1_G0');
+define('GOOGLE_CAPTCHA_SECRET_KEY','xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx');
 
 class Bundle extends \TAO\Bundle
 {
