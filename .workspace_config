@@ -1,0 +1,13 @@
+project tn-taikor
+
+ln /www/upload/
+ln /www/bitrix/
+cp /www/local/.config.php
+
+prepare cd www/local/; vcomposer install; cd ../..
+rsync www/local/vendor
+
+prepare cd calculator; yarn install; yarn build; cd ..
+rsync www/calculator
+
+cleanup cd www/local/php_interface; php cli.php after_deploy; cd ../../..

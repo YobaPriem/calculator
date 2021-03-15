@@ -1,0 +1,76 @@
+.c-calculator-range-slider {
+	.vue-slider:hover {
+		.vue-slider-process {
+			background-color: #c10725;
+		}
+
+		.vue-slider-dot-handle {
+			border-color: #c10725;
+		}
+	}
+
+	.vue-slider-mark-step {
+		display: none;
+	}
+
+	.vue-slider-dot-tooltip-inner {
+		background-color: #fff;
+		border-color: #fff;
+		box-shadow: 0 4px 14px rgba(0, 0, 0, 0.16);
+		border-radius: 4px;
+		font-size: 15px;
+		line-height: 20px;
+		color: #333;
+		padding: 8px 5px;
+	}
+
+	.vue-slider-dot-handle {
+		border-color: #c10725;
+		background-color: #c10725;
+	}
+
+	.vue-slider-process {
+		background-color: #c10725;
+	}
+
+	.vue-slider-rail {
+		background-color: #c9c9c9;
+	}
+
+	.vue-slider-mark {
+		.vue-slider-mark-label {
+			color: #d6d6d6;
+		}
+
+		&:first-of-type {
+			left: 1%;
+		}
+
+		&:last-of-type {
+			left: 99%;
+		}
+
+		&:first-of-type,
+		&:last-of-type {
+			.vue-slider-mark-label {
+				color: #333333;
+			}
+		}
+
+	}
+
+	.vue-slider-mark-active {
+		&:last-of-type {
+			color: #333333;
+			.vue-slider-mark-label {
+			}
+		}
+	}
+
+	.vue-slider-mark .vue-slider-mark-label {
+		margin-top: 23px;
+		font-size: 15px;
+		line-height: 20px;
+		cursor: pointer;
+	}
+}
